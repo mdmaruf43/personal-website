@@ -4,6 +4,10 @@ body{
 }
 
 h1{
+    font-weight: 200px;
+}
+
+.head{
     color: #790d79;
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
@@ -30,6 +34,26 @@ section{
     width: 100%;
 }
 
+.leftSide{
+    margin-top: 20%;
+    margin-left: 10%;
+}
+
+.rightSide{
+    margin-top: 5%;
+}
+
+
+.lSide{
+    margin-top: 20%;
+    margin-left: 10%;
+}
+
+.rSide{
+    margin-top: 10%;
+}
+
+
 .btn{
     text-decoration: none;
     background-image: linear-gradient( #f857a6 0%, #ff5858 51%, #f857a6 100%);
@@ -42,14 +66,12 @@ section{
 .first-portion{
     background-image: url('./images/header-bg.png');
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
 }
 
 .second-portion{
     background-image: url("images/biography-bg.png");
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
 }
 
@@ -57,7 +79,6 @@ section{
 .third-portion{
     background-image: url('./images/latest-work-bg.png');
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
 }
 
@@ -83,7 +104,6 @@ section{
 .fourth-portion{
     background-image: url('./images/footer-bg.png');
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
 }
 
